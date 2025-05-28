@@ -275,5 +275,5 @@ function setupDoubleSlider(id, thumb1Id, thumb2Id, formatFn = v => v) {
 
 // Запускаем
 setupDoubleSlider("floor", "floor-thumb1", "floor-thumb2");
-setupSingleSlider("area", "area-thumb");
+setupDoubleSlider("area", "area-thumb1", "area-thumb2"); // ← изменено
 setupDoubleSlider("price", "price-thumb1", "price-thumb2");

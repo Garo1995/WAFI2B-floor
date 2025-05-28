@@ -270,8 +270,12 @@
     transform: rotate(180deg);
     width: 20px;
     height: 20px;
+    transition: 0.3s;
 }
+.go-floor-style:hover .icon-arrow-rig-sm{
+    transform: rotate(180deg) translateX(8px);
 
+}
 .btn-select{
     transition: 0.3s;
     background: #FFFFFF26;
@@ -280,9 +284,12 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
-    white-space: none;
+    white-space: nowrap;
     width: max-content;
     margin-left: 36px;
+}
+.btn-select:hover{
+    background: #FFFFFFA6;
 }
 .icon-tuning{
     content: url("../img/tuning.svg");

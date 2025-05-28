@@ -93,7 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let floorSwiper = new Swiper(".floor-plan-slider", {
         slidesPerView: 1,
         loop: true,
-
+        fadeEffect: { crossFade: true },
+        virtualTranslate: true,
+        effect: "fade",
         speed: 600,
         navigation: {
             nextEl: ".floor-button-next",

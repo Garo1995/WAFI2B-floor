@@ -18,7 +18,7 @@ function updateInfoBoxPosition(box) {
     let left = rect.right - parentRect.left - 80;
 
     if (top + infoBoxHeight >= parent.offsetHeight) {
-        top = rect.top - parentRect.top - infoBoxHeight - 50;
+        top = rect.top - parentRect.top - infoBoxHeight + 90;
     }
 
     if (top < 0) {
